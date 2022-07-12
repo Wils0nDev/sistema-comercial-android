@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Virgen del Carmen</string>
+    <string name="titulo_nuevo_cliente">Crear Nuevo Cliente</string>
+    <string name="titulo_editar_cliente">Editar Cliente</string>
+    <string name="titulo_detalle_Cliente">Datos de Cliente</string>
+    <string name="titulo_preventa">Preventas</string>
+    <string name="titulo_seleccion_cliente">Seleccionar Cliente</string>
+    <string name="titulo_seleccion_producto">Seleccionar Producto</string>
+    <string name="boton_nuevo_cliente">+</string>
+    <string name="numero_documento">Número Documento</string>
+    <string name="nombres">Nombres / Razon Social</string>
+    <string name="apellido_pat">Apellido Paterno</string>
+    <string name="apellido_mat">Apellido Materno</string>
+    <string name="direccion">Dirección</string>
+    <string name="correo">Correo</string>
+    <string name="telefono">Teléfono</string>
+    <string name="celular">Celular</string>
+    <string name="direccion_entrega">Dirección Entrega</string>
+    <string name="frecuencia">Frecuencia:</string>
+    <string name="tipo_documento">Tipo Documento:</string>
+    <string name="tipo_persona">Tipo Persona:</string>
+    <string name="lista_precios">Tipo Precio:</string>
+    <string name="ruta">Ruta:</string>
+    <string name="titulo_num_documento">Número documento:</string>
+    <string name="titulo_correo">Correo:</string>
+    <string name="titulo_direccion">Dirección:</string>
+    <string name="titulo_telefono">Teléfono:</string>
+    <string name="titulo_celular">Celular:</string>
+    <string name="boton_ver_ubicacion">Ver Ubicación</string>
+    <string name="stock">Stock: </string>
+    <string name="precio">Precio: </string>
+    <string name="cantidad">Cantidad: </string>
+    <string name="unidad">Unidad: </string>
+    <string name="promocion">Promocion: </string>
+    <string name="descuento">Descuento: </string>
+    <string name="agregar_carrito">Agregar al Carrito</string>
+    <string name="promociones">* Promociones:</string>
+    <string name="descuentos">* Descuentos:</string>
+
+    <string name="titulo_categorias"><u>Categorias</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_direccion_entrega">Nueva Dirección Entrega</string>
+    <string name="reg_direccion_entrega">Registrar Dirección</string>
+    <string name="total_productos">Total productos:</string>
+    <string name="tipo_venta">Tipo Venta:</string>
+    <string name="contado">Contado</string>
+    <string name="credito">Crédito</string>
+    <string name="documento_venta">Documento Venta:</string>
+    <string name="boleta">Boleta</string>
+    <string name="factura">Factura</string>
+    <string name="cargo">Aplicar recargo por venta al credito</string>
+    <string name="subtotal">Subtotal: </string>
+    <string name="recargo">Recargo: </string>
+    <string name="igv">IGV: </string>
+    <string name="total">Total: </string>
+    <string name="agregar_direccion">Seleccionar direccion de entrega</string>
+    <string name="cancelar">Cancelar Preventa</string>
+    <string name="soles">S/.</string>
+    <string name="cantidad_fila">Cantidad:</string>
+    <string name="unidad_fila">Und: </string>
+
+    <!-- Rutas -->
+    <string name="titulo_nom_ruta">Ruta Asignada</string>
+    <string name="nombre_ruta">Ruta:</string>
+    <string name="select_cliente">Cliente:</string>
+    <string name="select_fecha">Fecha:</string>
+    <string name="text_motivo">Motivo:</string>
+    <string name="rb_si">Si</string>
+    <string name="rb_no">No</string>
+    <string name="visita">Visita:</string>
+    <string name="btn_iniciarv">INICIAR VISITA</string>
+    <string name="btn_confirmarv">CONFIRMAR VISITA</string>
+    <string name="btn_finalizarv">FINALIZAR VISITA</string>
+    <string name="btn_terminarv">SE VISITO A TODOS LOS CLIENTES</string>
+    <string name="btn_cancelarv">CANCELAR</string>
+	<string name="map_cliente">Map</string>
+	<string name="btnMapaCliente">Mapa</string>
+	<string name="btnGuardarDir">GUARDAR DIRECCIÓN</string>
+	<string name="title_activity_mapa_list_clientes">Mapa</string>
+    <string name="title_activity_mapa_lista_clientes">MapaLista</string>
+    <string name="title_activity_mapa_ubicacion_clientes">Ubicación de clientes</string>
+    <string name="txt_tit_prog_sinc">Procesando...</string>
+    <string name="txt_mess_progress_sinc">Sincronizando datos</string>
+
+
+
+</resources>

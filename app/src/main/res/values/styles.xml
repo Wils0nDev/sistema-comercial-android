@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="categoria_titulo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:background">@android:color/background_light</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+    </style>
+
+    <style name="fila_titulo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Holo.Medium</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="Theme.AppCompat.Light">
+        <!-- color de radio button-->
+
+        <item name="colorAccent">@color/colorPrimary</item>
+        <!--default color of radio button-->
+        <item name="android:textColorPrimary">@android:color/darker_gray</item>
+
+    </style>
+
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/layout_screem</item>
+    </style>
+</resources>

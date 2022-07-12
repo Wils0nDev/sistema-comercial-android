@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mnCancelarP"
+        android:icon="@drawable/ic_cancel"
+        android:title="Cancelar"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/mnAgregarP"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="Cancelar"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/mnContinuarP"
+        android:icon="@drawable/ic_check_guardar"
+        android:title="Cancelar"
+        app:showAsAction="always"
+        />
+</menu>

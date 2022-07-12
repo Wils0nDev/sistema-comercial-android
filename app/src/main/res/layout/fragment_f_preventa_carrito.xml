@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPlomo"
+    tools:context=".Fragments.f_preventa_carrito">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clPie_carrito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:background="@color/colorPrecio"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:layout_editor_absoluteX="8dp">
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="114dp"
+                android:text="@string/descuento"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView37"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/tvDescuento_carrito_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="    "
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toTopOf="@+id/tvIgv_Carrito_pre"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="114dp"
+                android:text="Productos:"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView31"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvCantidadProductos_carrito_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:text="    "
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toTopOf="@+id/tvSubtotal_carrito_pre"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <CheckBox
+                android:id="@+id/cbAplicarRecargo_carrito_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Aplicar \n recargo"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/tvSubtotal_carrito_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="    "
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toTopOf="@+id/tvRecargo_carrito_pre"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="114dp"
+                android:text="Subtotal:"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView33"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/tvRecargo_carrito_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="    "
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toTopOf="@+id/tvDescuento_carrito_pre"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="114dp"
+                android:text="Recargo:"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView34"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/tvIgv_Carrito_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="    "
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toTopOf="@+id/tvTotal_carrito_pre"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="114dp"
+                android:text="IGV:"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView39"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/tvTotal_carrito_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="16dp"
+                android:text="    "
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="114dp"
+                android:layout_marginBottom="16dp"
+                android:text="Total:"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/btnFechaEntrega_carrito_pre"
+                android:layout_width="120dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="10dp"
+                android:text="F. Entrega"
+                app:layout_constraintBottom_toTopOf="@+id/tvFechaEntrega_carrito_pre"
+                app:layout_constraintEnd_toStartOf="@+id/textView15"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/tvFechaEntrega_carrito_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="    "
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toTopOf="@+id/tvHoraEntrega_carrito_pre"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/tvHoraEntrega_carrito_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="    "
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toTopOf="@+id/cbAplicarRecargo_carrito_pre"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/clPie_carrito"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="0dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvListaProductos_carrito"
+                android:background="@color/colorPlomo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </RelativeLayout>
+</FrameLayout>

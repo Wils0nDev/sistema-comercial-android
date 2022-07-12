@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mnAnularPre"
+        android:icon="@drawable/ic_delete_black"
+        android:title="Anular"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/mnEditarPre"
+        android:icon="@drawable/ic_mode_edit"
+        android:title="Editar"
+        app:showAsAction="always"
+        />
+</menu>

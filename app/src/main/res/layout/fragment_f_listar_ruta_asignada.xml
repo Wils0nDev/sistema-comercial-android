@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.f_listar_ruta_asignada">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center">
+
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="304dp"
+                    android:layout_height="46dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/titulo_nom_ruta"
+                    android:textColor="@color/colorNegro"
+                    android:textSize="36sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.566"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvNombreRutaAsig"
+                    android:layout_width="320dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="J.L.P 1 - AV.MEXICO - AV.SANEZ PEÑA - AV.N.PIEROA - AV.AGRICULTURA"
+                    android:textColor="@color/colorNegro"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toTopOf="@+id/btnIniciarVisita"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView15"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:layout_constraintEnd_toEndOf="@id/btnFinalizarVisita"
+                    tools:layout_constraintStart_toStartOf="@id/btnFinalizarVisita" />
+
+                <Button
+
+                    android:id="@+id/btnIniciarVisita"
+                    android:layout_width="306dp"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/colorCeleste"
+                    android:text="@string/btn_iniciarv"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.49"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvNombreRutaAsig"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <Button
+
+                    android:visibility="gone"
+                    android:id="@+id/btnFinalizarVisita"
+                    android:layout_width="306dp"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/colorCeleste"
+                    android:text="@string/btn_finalizarv"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvNombreRutaAsig"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/btnTerminarVisita"
+                    android:layout_width="306dp"
+                    android:layout_height="55dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/btn_terminarv"
+                    android:textColor="@color/colorNegro"
+                    android:textSize="18sp"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvNombreRutaAsig"
+                    app:layout_constraintVertical_bias="0.0" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</FrameLayout>
